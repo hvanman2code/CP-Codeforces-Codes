@@ -1,0 +1,1 @@
+{"name":"Local: 271 d2 worms","url":"d:\\COdeforces\\271 d2 worms.cpp","tests":[{"id":1723715230648,"input":"5\n2 7 3 4 9\n3\n1 25 11\n","output":"1\n5\n3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\271 d2 worms.cpp","group":"local","local":true}

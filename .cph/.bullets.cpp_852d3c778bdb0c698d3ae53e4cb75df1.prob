@@ -1,0 +1,1 @@
+{"name":"Local: bullets","url":"d:\\COdeforces\\bullets.cpp","tests":[{"id":1727585867410,"input":"3\n4\n1 2 3 4\n4\n4 3 2 1\n5\n1 2 4 3 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\bullets.cpp","group":"local","local":true}

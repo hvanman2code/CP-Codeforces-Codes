@@ -1,0 +1,1 @@
+{"name":"Local: mex","url":"d:\\COdeforces\\contest\\mex.c","tests":[{"id":1710600839555,"input":"3\n4\n0 0 1 1\n4\n0 1 2 3\n2\n1 1","output":"2\n4\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\contest\\mex.c","group":"local","local":true}

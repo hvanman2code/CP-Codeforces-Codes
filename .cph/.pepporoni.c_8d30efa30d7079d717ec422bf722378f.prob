@@ -1,0 +1,1 @@
+{"name":"Local: pepporoni","url":"d:\\COdeforces\\pepporoni.c","tests":[{"id":1709354175156,"input":"5\n1\n2\n3\n4\n5","output":"1\n4\n9\n16\n25"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\pepporoni.c","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: yesoryes","url":"d:\\COdeforces\\yesoryes.c","tests":[{"id":1710784185612,"input":"10\nYES\nyES\nyes\nYes\nYeS\nNoo\norZ\nyEz\nYas\nXES","output":"YES\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\yesoryes.c","group":"local","local":true}

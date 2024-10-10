@@ -1,0 +1,1 @@
+{"name":"Local: turtle piggy game","url":"d:\\COdeforces\\turtle piggy game.cpp","tests":[{"id":1724755514126,"input":"5\n3\nabc\n5\nedddf\n6\nturtle\n8\npppppppp\n10\ncodeforces\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\turtle piggy game.cpp","group":"local","local":true}

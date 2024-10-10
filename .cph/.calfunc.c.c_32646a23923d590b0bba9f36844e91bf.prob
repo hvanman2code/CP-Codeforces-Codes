@@ -1,0 +1,1 @@
+{"name":"Local: calfunc","url":"d:\\COdeforces\\calfunc.c.c","tests":[{"id":1709534096465,"input":"4","output":"2"},{"id":1709534106597,"input":"5","output":"-3"},{"id":1709534538119,"input":"1000000000000000","output":"500000000000000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\calfunc.c.c","group":"local","local":true}

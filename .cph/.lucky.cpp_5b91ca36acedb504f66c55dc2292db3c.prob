@@ -1,0 +1,1 @@
+{"name":"Local: lucky","url":"d:\\COdeforces\\lucky.cpp","tests":[{"id":1711779822218,"input":"5\n213132\n973894\n045207\n000000\n055776\n","output":"YES\nNO\nYES\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\lucky.cpp","group":"local","local":true}

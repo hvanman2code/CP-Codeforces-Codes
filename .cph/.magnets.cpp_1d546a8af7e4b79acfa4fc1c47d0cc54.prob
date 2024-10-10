@@ -1,0 +1,1 @@
+{"name":"Local: magnets","url":"d:\\COdeforces\\magnets.cpp","tests":[{"id":1712642677171,"input":"10\n01\n01\n10\n10\n01\n10\n10\n01\n10\n10\n10\n","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\magnets.cpp","group":"local","local":true}

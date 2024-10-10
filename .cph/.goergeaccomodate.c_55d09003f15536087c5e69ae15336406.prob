@@ -1,0 +1,1 @@
+{"name":"Local: goergeaccomodate","url":"d:\\COdeforces\\goergeaccomodate.c","tests":[{"id":1709446629184,"input":"3\n1 1\n2 2\n3 3\n","output":"0"},{"id":1709446645316,"input":"3\n0 10\n1 10\n5 10","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\goergeaccomodate.c","group":"local","local":true}

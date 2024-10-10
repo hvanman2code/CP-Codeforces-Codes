@@ -1,0 +1,1 @@
+{"name":"Local: two substrings","url":"d:\\COdeforces\\two substrings.cpp","tests":[{"id":1727695634053,"input":"ABAXXXAB","output":""},{"id":1727856349112,"input":"BACFAB","output":""},{"id":1727856467703,"input":"BABAB","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\two substrings.cpp","group":"local","local":true}

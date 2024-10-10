@@ -1,0 +1,1 @@
+{"name":"Local: fence","url":"d:\\COdeforces\\fence.c","tests":[{"id":1709355088749,"input":"3 7\n4 5 14\n","output":"4\n"},{"id":1709355109118,"input":"6 1\n1 1 1 1 1 1\n","output":"6\n"},{"id":1709355125982,"input":"6 5\n7 6 8 9 10 5\n","output":"11\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\fence.c","group":"local","local":true}

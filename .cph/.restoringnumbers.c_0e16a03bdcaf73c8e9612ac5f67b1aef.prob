@@ -1,0 +1,1 @@
+{"name":"Local: restoringnumbers","url":"d:\\COdeforces\\restoringnumbers.c","tests":[{"id":1710782425709,"input":"3 6 5 4\n","output":"2 1 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\restoringnumbers.c","group":"local","local":true}

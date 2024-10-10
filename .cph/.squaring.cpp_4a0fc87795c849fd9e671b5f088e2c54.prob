@@ -1,0 +1,1 @@
+{"name":"Local: squaring","url":"d:\\COdeforces\\squaring.cpp","tests":[{"id":1721900294253,"input":"1\n4\n5 4 3 2\n","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\squaring.cpp","group":"local","local":true}

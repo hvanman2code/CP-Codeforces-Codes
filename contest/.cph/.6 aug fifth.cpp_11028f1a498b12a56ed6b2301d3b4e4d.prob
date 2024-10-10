@@ -1,0 +1,1 @@
+{"name":"Local: 6 aug fifth","url":"d:\\COdeforces\\contest\\6 aug fifth.cpp","tests":[{"id":1722958698041,"input":"4\n1 3\n2 4\n199999 200000\n19 84\n","output":"5\n6\n36\n263\n"},{"id":1722960272451,"input":"1\n19 84","output":"263"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\contest\\6 aug fifth.cpp","group":"local","local":true}

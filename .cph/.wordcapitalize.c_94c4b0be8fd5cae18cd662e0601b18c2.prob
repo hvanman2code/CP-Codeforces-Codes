@@ -1,0 +1,1 @@
+{"name":"Local: wordcapitalize","url":"d:\\COdeforces\\wordcapitalize.c","tests":[{"id":1710558187375,"input":"aPPLE","output":"APPLE"},{"id":1710558203796,"input":"Excecute","output":"Excecute"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\wordcapitalize.c","group":"local","local":true}

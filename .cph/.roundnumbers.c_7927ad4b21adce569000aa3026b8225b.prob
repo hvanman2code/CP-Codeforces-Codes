@@ -1,0 +1,1 @@
+{"name":"Local: roundnumbers","url":"d:\\COdeforces\\roundnumbers.c","tests":[{"id":1710523213993,"input":"5\n5119","output":"4\n5000 100 10 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\roundnumbers.c","group":"local","local":true}

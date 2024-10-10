@@ -1,0 +1,1 @@
+{"name":"Local: question marks","url":"d:\\COdeforces\\question marks.cpp","tests":[{"id":1728121335737,"input":"6\n1\nABCD\n2\nAAAAAAAA\n2\nAAAABBBB\n2\n????????\n3\nABCABCABCABC\n5\nACADC??ACAC?DCAABC?C\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\question marks.cpp","group":"local","local":true}

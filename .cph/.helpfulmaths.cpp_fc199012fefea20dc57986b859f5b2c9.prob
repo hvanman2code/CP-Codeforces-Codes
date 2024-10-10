@@ -1,0 +1,1 @@
+{"name":"Local: helpfulmaths","url":"d:\\COdeforces\\helpfulmaths.cpp","tests":[{"id":1711973443400,"input":"1+5+2+4+3","output":"1+2+3+4+5"},{"id":1711973719073,"input":"1+1+2+2+3+3+3","output":"1+1+2+2+3+3+3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\helpfulmaths.cpp","group":"local","local":true}

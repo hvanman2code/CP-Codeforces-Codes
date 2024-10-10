@@ -1,0 +1,1 @@
+{"name":"Local: pangram","url":"d:\\COdeforces\\pangram.cpp","tests":[{"id":1712743417993,"input":"35\nTheQuickBrownFoxJumpsOverTheLazyDog\n\n","output":""},{"id":1712743585293,"input":"12\ntoosmallword","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\pangram.cpp","group":"local","local":true}

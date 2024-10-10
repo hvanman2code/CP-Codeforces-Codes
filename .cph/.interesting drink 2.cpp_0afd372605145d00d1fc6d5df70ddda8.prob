@@ -1,0 +1,1 @@
+{"name":"Local: interesting drink 2","url":"d:\\COdeforces\\interesting drink 2.cpp","tests":[{"id":1713438269941,"input":"5\n868 987 714 168 123\n10\n424\n192\n795\n873\n117\n914\n735\n158\n631\n471","output":"2\n2\n3\n4\n0\n4\n3\n1\n2\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\interesting drink 2.cpp","group":"local","local":true}

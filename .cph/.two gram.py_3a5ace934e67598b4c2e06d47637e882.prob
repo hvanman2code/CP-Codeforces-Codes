@@ -1,0 +1,1 @@
+{"name":"Local: two gram","url":"d:\\COdeforces\\two gram.py","tests":[{"id":1712817824332,"input":"7\nABABCABA","output":""},{"id":1712817904280,"input":"5\nZZZAA\n","output":""},{"id":1712817962039,"input":"2\nQA","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\COdeforces\\two gram.py","group":"local","local":true}
