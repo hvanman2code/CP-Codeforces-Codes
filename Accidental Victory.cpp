@@ -1,41 +1,48 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
+ 
 using namespace std;
-
-#define f first
-#define s second
-
-int main() {
+ 
+#define f first 
+#define s second 
+ 
+int main(){
     ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-
+    cin.tie(NULL);
     int t;
     cin >> t;
-    while (t--) {
+    while(t--){
         int n;
-        cin >> n;
-        vector<pair<int, int>> a(n);
-        for (int i = 0; i < n; ++i) {
-            cin >> a[i].f;
-            a[i].s = i + 1;
+        cin>>n;
+        vector<int> v1(n),v2(n);
+        for(int i = 0; i < n; i++) cin>>v1[i];
+        v2=v1;
+        sort(v2.begin(),v2.end());
+        map<int,long long int> mp;
+        for(int i = 0; i < n; i++) mp[v2[i]]++;
+        long long int ps=0;
+        for(auto& c : mp){
+            c.s=ps+c.s*c.f;
+            ps=c.s;
+            //cout<<c.f<<' '<<c.s<<"\n";
+ 
         }
-        sort(a.begin(), a.end());
-        vector<long long> p(n);
-        p[0] = a[0].f;
-        for (int i = 1; i < n; ++i) {
-            p[i] = p[i - 1] + a[i].f;
+        // for(auto c:mp){
+        //     cout<<c.f<<' '<<c.s<<"\n";
+        // }
+        long long int ans=0;
+        for(int i=n-1;i>0;i--){
+            ans=v2[i];
+            if(mp[v2[i-1]]<v2[i]) break;
         }
-        int w = 0;
-        for (int i = n - 1; i > 0; --i) {
-            if (p[i - 1] < a[i].f) {
-                w = i;
-                break;
-            }
-        }
-        cout << n - w << "\n";
-        for (int i = w; i < n; ++i) {
-            cout << a[i].s << " ";
-        }
-        cout << "\n";
+        
+        int ct=0;
+        for(int i=0;i<n;i++) if(v1[i]>=ans) ct++;
+        cout<<ct<<"\n";
+        for(int i=0;i<n;i++) if(v1[i]>=ans) cout<<i+1<< ' ';
+        cout<<endl;
+ 
     }
+ 
+ 
     return 0;
 }
