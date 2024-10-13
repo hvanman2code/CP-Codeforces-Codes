@@ -1,0 +1,1 @@
+{"name":"Local: circuit","url":"e:\\CP-Codeforces-Codes\\circuit.cpp","tests":[{"id":1728794716375,"input":"5 9","output":"5 9 14 18 23 27 32 36 41 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CP-Codeforces-Codes\\circuit.cpp","group":"local","local":true}
