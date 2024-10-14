@@ -26,7 +26,7 @@ using namespace std;
 #define  no              cout<<"NO\n";
 
  
-const int M=1000000007;
+const int MOD=1000000007;
  
 
 
@@ -43,19 +43,23 @@ ll mll(int a,int b){
     return a*1LL*b;
 }
 
+int main(){
 
-
-
-int main() {
-    fast;
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        
-      
+    ll t;
+    cin>>t;
+    ll n[t],k[t],pwr[100001],val=1;
+    pwr[0]=1;
+    for (int i = 1; i <= 100000; i++){
+        val+=val;
+        val=val%MOD;        
+        pwr[i]=val;
     }
-
- return 0;
+    
+    for (int i = 1; i <= t; ++i) cin>>n[i];
+    
+    for (int i = 1; i <= t; ++i) cin>>k[i];
+    
+    for (int i = 1; i <= t; ++i)  cout<<pwr[k[i]]<<endl;
+    
+    return 0;
 }

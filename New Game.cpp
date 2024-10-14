@@ -51,11 +51,48 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        int n;
-        cin >> n;
-        
-      
-    }
+        int n, k;
+        cin >> n >> k;
+        ll cs = 0, ms = 0, cd = 0;
+        mi mp;
 
- return 0;
+        
+        for (int i = 0; i < n; i++) {
+            int x;
+            cin >> x;
+            mp[x]++;
+        }
+
+        
+        vector<int> ks;
+        for (auto &pair : mp) {
+            ks.push_back(pair.f);
+        }
+        sort(ks.begin(), ks.end());
+
+        for (int i = 0; i < ks.size(); i++) {
+            int cn = ks[i];
+            int ccnt = mp[cn];
+
+          
+            if (i > 0 && (ks[i] - ks[i - 1] > 1)) {
+                
+                cs = ccnt;
+                cd = 1;  
+            } else {
+                if (cd < k) {
+                    cs += ccnt;
+                    cd++;
+                } else if (cd == k) {
+                    cs -= mp[ks[i - k]];   
+                    cs += ccnt;      
+                }
+            }
+
+            ms = lmx(ms, cs);
+        }
+        
+        cout << ms << endl;
+    }
+    return 0;
 }

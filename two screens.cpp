@@ -44,18 +44,41 @@ ll mll(int a,int b){
 }
 
 
+int lcs( string& s,string& t) {
+    int n = s.size(), m = t.size();
+    int maxl = 0;
 
+   
+    for (int len = 1; len <= min(n, m); ++len) {
+        if (s.substr(n - len,n) == t.substr(0, len))  maxl = len;
+        
+    }
+    // for (int len = 1; len <= min(n, m); ++len) {
+    //     if (t.substr(n - len,n) == s.substr(0, len))  maxl = max(maxl,len);
+        
+    // }
+    for (int len = 1; len <= min(n, m); ++len) {
+        if (t.substr(0,len) == s.substr(0, len))  maxl = max(maxl,len);
+        
+    }
+    return maxl;
+}
 
 int main() {
     fast;
-    int t;
-    cin >> t;
-    while (t--) {
-        int n;
-        cin >> n;
-        
-      
+
+    int q;
+    cin >> q;
+
+    while (q--) {
+        string s, t;
+        cin >> s >> t;
+
+        int k = lcs(s, t);
+        if(k>0) k--;
+        int result = s.size() + t.size() - k ;  
+        cout << result << '\n';
     }
 
- return 0;
+    return 0;
 }
